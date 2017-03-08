@@ -36,9 +36,8 @@ function launchIntoFullscreen(element) {
   } else if(element.msRequestFullscreen) {
     element.msRequestFullscreen();
   }
-
-  console.log(element);
   
+ 
 }
 
 
